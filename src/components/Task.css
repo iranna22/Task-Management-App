@@ -1,0 +1,51 @@
+.task-container {
+  position: relative;
+  padding: 1rem;
+  margin-top: 2rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.375rem;
+  cursor: grab;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.task-container.dragging {
+  opacity: 0.25;
+}
+
+.task-name {
+  margin-bottom: 0.5rem;
+}
+
+.remove-button {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  color: #718096;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.custom-remove-icon {
+  width: 1.5rem; 
+  height: 1.5rem;
+  background-color: transparent;
+  position: relative;
+}
+
+.custom-remove-icon::before,
+.custom-remove-icon::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 1.5rem;
+  background-color: #718096; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.custom-remove-icon::after {
+  transform: translate(-50%, -50%) rotate(45deg);
+}

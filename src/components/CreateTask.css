@@ -1,0 +1,23 @@
+.custom-input {
+    border: 2px solid #4a5568;
+    background-color: #ecf1f7;
+    border-radius: 0.375rem;
+    margin-right: 0.35rem;
+    height: 3rem;
+    width: 16rem;
+    padding: 0.25rem;
+  }
+  
+  .custom-button {
+    background-color: #2b6cb0;
+    border-radius: 0.375rem;
+    padding: 0.75rem 1rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover,
+  .custom-button:focus {
+    background-color: #2c5282;
+  }
+  

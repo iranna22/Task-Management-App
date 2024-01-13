@@ -1,0 +1,25 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem; 
+    padding-left: 1rem; 
+    border-radius: 0.375rem; 
+    text-transform: uppercase; 
+    font-size: 0.875rem; 
+    background-color: #667eea; 
+    color: #fff; 
+  }
+  
+  .header-count {
+    margin-left: 0.5rem; 
+    background-color: #fff; 
+    width: 1.25rem; 
+    height: 1.25rem; 
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000; 
+  }
+  
